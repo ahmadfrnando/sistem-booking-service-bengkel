@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'after_or_equal' => ':attribute minimal tanggal :date.',
+    'array' => ':attribute harus dipilih.',
+    'before_or_equal' => ':attribute maksimal tanggal :date.',
+    'date' => ':attribute bukan tanggal yang valid.',
+    'email' => ':attribute harus berupa email yang valid.',
+    'exists' => ':attribute tidak valid.',
+    'in' => ':attribute tidak valid.',
+    'integer' => ':attribute harus berupa angka.',
+    'max' => ['numeric' => ':attribute maksimal :max.', 'string' => ':attribute maksimal :max karakter.', 'array' => ':attribute maksimal :max item.'],
+    'min' => ['numeric' => ':attribute minimal :min.', 'string' => ':attribute minimal :min karakter.', 'array' => 'Pilih minimal :min :attribute.'],
+    'regex' => 'Format :attribute tidak valid.',
+    'required' => ':attribute wajib diisi.',
+    'required_if' => ':attribute wajib diisi.',
+    'string' => ':attribute harus berupa teks.',
+
+    'attributes' => [
+        'customer_name' => 'nama',
+        'customer_email' => 'email',
+        'vehicle_type' => 'jenis motor',
+        'vehicle_brand' => 'merek motor',
+        'vehicle_model' => 'tipe motor',
+        'plate_number' => 'plat nomor',
+        'booking_date' => 'tanggal booking',
+        'time_slot' => 'jam booking',
+        'services' => 'layanan',
+        'mechanic_id' => 'mekanik',
+        'received_amount' => 'uang diterima',
+        'method' => 'metode pembayaran',
+        'name' => 'nama',
+        'category' => 'kategori',
+        'duration_minutes' => 'durasi',
+        'password' => 'password',
+    ],
+];
