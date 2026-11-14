@@ -3,8 +3,8 @@
 return [
     'name' => env('BENGKEL_NAME', 'Chandra Motor'),
     'tagline' => 'Servis motor matic, manual & sport — cepat, jujur, bergaransi.',
-    'address' => 'Jl. Raya Pahlawan No. 21, Bandung',
-    'phone' => '0812-3456-7890',
+    'address' => 'Jl. Suryadi Sampali',
+    'phone' => '0813-6630-8913',
     'email' => 'admin@chandramotor.test',
     'open_hours' => 'Senin - Sabtu, 08:00 - 17:00',
     'dp_percent' => 30,
